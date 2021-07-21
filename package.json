@@ -1,0 +1,23 @@
+{
+  "name": "webpack-study",
+  "version": "1.0.0",
+  "description": "Проект по ссылке\r https://www.youtube.com/watch?v=eSaF8NXeNsA&list=WL&index=21&t=1s",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strilchuk/webpack-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strilchuk/webpack-study/issues"
+  },
+  "homepage": "https://github.com/strilchuk/webpack-study#readme",
+  "devDependencies": {
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
+  }
+}

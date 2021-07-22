@@ -1,4 +1,4 @@
-import Post from "./Post"
+import Post from "@models/Post"
 import './styles/styles.css'
 import json from './assets/json.json'
 import WebpackLogo from './assets/webpack-logo.png'

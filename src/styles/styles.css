@@ -1,8 +1,8 @@
-@import "~normalize.css";
 @import "font-roboto.css";
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'MyRoboto', sans-serif;
+    font-style: italic;
 }
 
 .container {

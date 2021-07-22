@@ -11,7 +11,7 @@ module.exports = {
     },
     output: {
         filename: "[name].[contenthash].js",
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
         new HTMLWebpackPlugin({
@@ -35,9 +35,9 @@ module.exports = {
                 }
             },
             {
-                test: /\.(ttf|woff|woff2|eot)$/,
-                use: ['file-loader']
-            }
+                test: /\.(woff|woff2|eot|ttf|otf)$/i,
+                type: 'asset/resource',
+            },
         ]
     }
 }

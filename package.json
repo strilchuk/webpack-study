@@ -4,7 +4,9 @@
   "description": "Проект по ссылке\r https://www.youtube.com/watch?v=eSaF8NXeNsA&list=WL&index=21&t=1s",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "webpack --mode development",
+    "build" : "webpack --mode production"
   },
   "repository": {
     "type": "git",

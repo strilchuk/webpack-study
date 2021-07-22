@@ -3,7 +3,8 @@
 
 body {
     font-family: 'MyRoboto', sans-serif;
-    font-style: italic;
+    font-style: normal;
+    font-weight: 600;
 }
 
 .container {
